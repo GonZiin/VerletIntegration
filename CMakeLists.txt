@@ -7,10 +7,12 @@ find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
-include_directories(include)
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-file(GLOB_RECURSE SOURCES "src/".cpp)
+# Coleta todos os arquivos .cpp na pasta src/
+file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
-add_executable(VerletIntegration src/main.cpp)
+add_executable(VerletIntegration ${SOURCES})
 
 target_link_libraries(VerletIntegration sfml-graphics sfml-window sfml-system)
+

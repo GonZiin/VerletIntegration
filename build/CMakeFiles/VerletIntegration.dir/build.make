@@ -69,10 +69,24 @@ include CMakeFiles/VerletIntegration.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/VerletIntegration.dir/flags.make
 
+CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o: CMakeFiles/VerletIntegration.dir/flags.make
+CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o: /home/gomes/newD/Fisica2D/src/boundaryconstraint.cpp
+CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o: CMakeFiles/VerletIntegration.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o -MF CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o.d -o CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o -c /home/gomes/newD/Fisica2D/src/boundaryconstraint.cpp
+
+CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gomes/newD/Fisica2D/src/boundaryconstraint.cpp > CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.i
+
+CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gomes/newD/Fisica2D/src/boundaryconstraint.cpp -o CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.s
+
 CMakeFiles/VerletIntegration.dir/src/main.cpp.o: CMakeFiles/VerletIntegration.dir/flags.make
 CMakeFiles/VerletIntegration.dir/src/main.cpp.o: /home/gomes/newD/Fisica2D/src/main.cpp
 CMakeFiles/VerletIntegration.dir/src/main.cpp.o: CMakeFiles/VerletIntegration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VerletIntegration.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VerletIntegration.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VerletIntegration.dir/src/main.cpp.o -MF CMakeFiles/VerletIntegration.dir/src/main.cpp.o.d -o CMakeFiles/VerletIntegration.dir/src/main.cpp.o -c /home/gomes/newD/Fisica2D/src/main.cpp
 
 CMakeFiles/VerletIntegration.dir/src/main.cpp.i: cmake_force
@@ -83,20 +97,54 @@ CMakeFiles/VerletIntegration.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VerletIntegration.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gomes/newD/Fisica2D/src/main.cpp -o CMakeFiles/VerletIntegration.dir/src/main.cpp.s
 
+CMakeFiles/VerletIntegration.dir/src/particle.cpp.o: CMakeFiles/VerletIntegration.dir/flags.make
+CMakeFiles/VerletIntegration.dir/src/particle.cpp.o: /home/gomes/newD/Fisica2D/src/particle.cpp
+CMakeFiles/VerletIntegration.dir/src/particle.cpp.o: CMakeFiles/VerletIntegration.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VerletIntegration.dir/src/particle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VerletIntegration.dir/src/particle.cpp.o -MF CMakeFiles/VerletIntegration.dir/src/particle.cpp.o.d -o CMakeFiles/VerletIntegration.dir/src/particle.cpp.o -c /home/gomes/newD/Fisica2D/src/particle.cpp
+
+CMakeFiles/VerletIntegration.dir/src/particle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VerletIntegration.dir/src/particle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gomes/newD/Fisica2D/src/particle.cpp > CMakeFiles/VerletIntegration.dir/src/particle.cpp.i
+
+CMakeFiles/VerletIntegration.dir/src/particle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VerletIntegration.dir/src/particle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gomes/newD/Fisica2D/src/particle.cpp -o CMakeFiles/VerletIntegration.dir/src/particle.cpp.s
+
+CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o: CMakeFiles/VerletIntegration.dir/flags.make
+CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o: /home/gomes/newD/Fisica2D/src/verletintegrator.cpp
+CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o: CMakeFiles/VerletIntegration.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o -MF CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o.d -o CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o -c /home/gomes/newD/Fisica2D/src/verletintegrator.cpp
+
+CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gomes/newD/Fisica2D/src/verletintegrator.cpp > CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.i
+
+CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gomes/newD/Fisica2D/src/verletintegrator.cpp -o CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.s
+
 # Object files for target VerletIntegration
 VerletIntegration_OBJECTS = \
-"CMakeFiles/VerletIntegration.dir/src/main.cpp.o"
+"CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o" \
+"CMakeFiles/VerletIntegration.dir/src/main.cpp.o" \
+"CMakeFiles/VerletIntegration.dir/src/particle.cpp.o" \
+"CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o"
 
 # External object files for target VerletIntegration
 VerletIntegration_EXTERNAL_OBJECTS =
 
+VerletIntegration: CMakeFiles/VerletIntegration.dir/src/boundaryconstraint.cpp.o
 VerletIntegration: CMakeFiles/VerletIntegration.dir/src/main.cpp.o
+VerletIntegration: CMakeFiles/VerletIntegration.dir/src/particle.cpp.o
+VerletIntegration: CMakeFiles/VerletIntegration.dir/src/verletintegrator.cpp.o
 VerletIntegration: CMakeFiles/VerletIntegration.dir/build.make
 VerletIntegration: /usr/lib64/libsfml-graphics.so.2.6.1
 VerletIntegration: /usr/lib64/libsfml-window.so.2.6.1
 VerletIntegration: /usr/lib64/libsfml-system.so.2.6.1
 VerletIntegration: CMakeFiles/VerletIntegration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VerletIntegration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gomes/newD/Fisica2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable VerletIntegration"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VerletIntegration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
