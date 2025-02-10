@@ -1,0 +1,3 @@
+/home/gomes/newD/Fisica2D/build/CMakeFiles/VerletIntegration.dir
+/home/gomes/newD/Fisica2D/build/CMakeFiles/edit_cache.dir
+/home/gomes/newD/Fisica2D/build/CMakeFiles/rebuild_cache.dir
